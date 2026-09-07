@@ -1,0 +1,20 @@
+{
+  "name": "cidef-import",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vercel dev",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "@neondatabase/serverless": "^1.0.1",
+    "googleapis": "^156.0.0",
+    "sax": "^1.4.1",
+    "unzipper": "^0.12.3",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "vercel": "^47.0.0"
+  }
+}
